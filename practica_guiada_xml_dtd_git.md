@@ -183,11 +183,11 @@ Complete la comparación:
 
 | Característica                      | DTD interno | DTD externo |
 |-------------------------------------|-------------|-------------|
-| Ubicación                           |             |             |                                    
-| Reutilizable entre XML              |             |             |            
-| Archivo adicional                   |             |             |                  
-| Conveniente para un único documento |             |             |   
-| Conveniente para muchos documentos  |             |             |   
+| Ubicación                           |      En el mismo xml       |      En su propio archivo separado del xml       |                                    
+| Reutilizable entre XML              |      No       |       Si      |            
+| Archivo adicional                   |      No       |      Si       |                  
+| Conveniente para un único documento |      Si       |      No       |   
+| Conveniente para muchos documentos  |       No      |     Si        |   
 
 Registre:
 
