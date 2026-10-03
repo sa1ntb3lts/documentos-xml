@@ -52,10 +52,10 @@ dirección y fecha de entrega.
 
 | Información  | Valor identificado | Elemento XML propuesto |
 |--------------|--------------------|------------------------|
-| Destinatario |                    |                        |
-| Artículo     |                    |                        |
-| Dirección    |                    |                        |
-| Fecha        |                    |                        |
+| Destinatario |        Juan Delgado Martinez            |          destinatario              |
+| Artículo     |       Bicicleta Bianchi             |            articulo            |
+| Dirección    |         Reforma 432, interior 201           |          direccion              |
+| Fecha        |          19-09-2021          |           fecha             |
 
 Proponga una jerarquía. Considere si la dirección debe descomponerse en
 calle, número, piso y letra.
