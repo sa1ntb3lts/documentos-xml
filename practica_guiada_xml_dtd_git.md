@@ -232,9 +232,9 @@ DTD.
 Elimine temporalmente todos los domicilios y registre:
 
 ``` text
-¿XML bien formado? __________
-¿XML válido? _________________
-¿Por qué? ____________________
+¿XML bien formado? Si
+¿XML válido? No
+¿Por qué? porque los domicilios no estan declarados en el dtd.
 ```
 
 ## 8. Restricción del atributo `tipo`
