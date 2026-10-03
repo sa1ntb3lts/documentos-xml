@@ -101,10 +101,10 @@ nota
 
 Responda:
 
-1.  ¿Cuál es el elemento raíz?
-2.  ¿Cuántas veces aparece `para`?
-3.  ¿El orden de los elementos es significativo?
-4.  ¿Los elementos contienen otros elementos o solamente texto?
+1.  ¿Cuál es el elemento raíz? nota.
+2.  ¿Cuántas veces aparece `para`? Una.
+3.  ¿El orden de los elementos es significativo? Si, esta ordenado de esa forma para ser mas legible.
+4.  ¿Los elementos contienen otros elementos o solamente texto? Solamente texto.
 
 Cree `ejercicio2/nota.dtd`. Defina primero:
 
