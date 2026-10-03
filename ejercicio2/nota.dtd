@@ -1,1 +1,5 @@
-<!ELEMENT nota (...)>
+<!ELEMENT nota (nota+)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
