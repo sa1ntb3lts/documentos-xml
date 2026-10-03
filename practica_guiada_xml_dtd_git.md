@@ -261,10 +261,10 @@ Pruebe:
 
  | Caso              | Predicción | Resultado | Explicación |
 |-------------------|------------|-----------|-------------|
- | `tipo="familiar"` |            |           |             |
- | `tipo="habitual"` |            |           |             |
-| `tipo="temporal"` |            |           |             |
-| sin `tipo`        |            |           | 
+ | `tipo="familiar"` |     Si       |     Si      |      Porque declara uno o mas       |
+ | `tipo="habitual"` |     Si       |      Si     |      Porque declara uno o mas       |
+| `tipo="temporal"` |     No      |    No      |      No esta declarado en el dtd entonces no es valido       |
+| sin `tipo`        |     No       |     No      |  Porque no declara ninguno, entonces no es valido
 
 ## 9. Git para desarrollar una variante
 
