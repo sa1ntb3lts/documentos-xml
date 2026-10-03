@@ -116,11 +116,11 @@ y después los elementos que contienen texto mediante `#PCDATA`.
 
 | Elemento    | Contenido esperado | Declaración DTD |
 |-------------|--------------------|-----------------|
-| `nota`      | elementos          |        
- | `para`      | texto              |                 |       
- | `de`        | texto              |                 |        
- | `titulo`    | texto              |                 |       
-| `contenido` | texto              |                 |      
+| `nota`      | elementos          |        <!ELEMENT nota (#PCDATA)> |
+ | `para`      | texto              |       <!ELEMENT para (#PCDATA)>          |       
+ | `de`        | texto              |       <!ELEMENT de (#PCDATA)>          |        
+ | `titulo`    | texto              |       <!ELEMENT titulo (#PCDATA)>          |       
+| `contenido` | texto              |       <!ELEMENT contenido (#PCDATA)>          |      
 
 Asocie el DTD mediante:
 
@@ -147,9 +147,9 @@ Registre:
 
 | Modificación       | ¿Bien formado? | ¿Válido? | ¿Por qué? |
  |--------------------|----------------|----------|-----------|
- | Cambiar `para`     |                          |   |
-| Cambiar orden      |          |                  | 
-| Agregar `telefono` |     |                      |
+ | Cambiar `para`     |           si               |  no | No esta declarado
+| Cambiar orden      |     no     |        no          | No sigue el orden
+| Agregar `telefono` |   si   |          no            | Porque no esta declarado
 
 Observe los cambios:
 
