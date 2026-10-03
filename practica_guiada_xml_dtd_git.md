@@ -64,8 +64,8 @@ calle, número, piso y letra.
 
 1.  ¿Conviene almacenar la dirección como un único texto? Diria que no, por razones que se mencionan abajo.
 2.  ¿Qué ventajas tendría separar sus componentes? Para separar calle y numero de casa, apartamento, o piso.
-3.  ¿Cómo debería almacenarse una fecha para facilitar su procesamiento? Dividiendo mes, 
-4.  ¿Qué información podría ser atributo y cuál elemento?
+3.  ¿Cómo debería almacenarse una fecha para facilitar su procesamiento? Dividiendo mes, dia, y ano.
+4.  ¿Qué información podría ser atributo y cuál elemento? genero podria ser el elemento y "hombre" el atributo.
 
 Cree `ejercicio1/pedido.xml` comenzando con:
 
