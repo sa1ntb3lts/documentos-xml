@@ -115,5 +115,7 @@ El atributo `tipo` debe ser obligatorio y solo admitir `familiar` o
 | sin `tipo`        |     No       |     No      |  Porque no declara ninguno, entonces no es valido |
 
 ## Conclusiones
-Con todo lo que hemos visto, nos hemos dado cuenta de que la consistencia en la programacion es muy
+Con todo lo que hemos visto, nos hemos dado cuenta de que la consistencia en programacion es muy
 importante.
+No tan solo porque varios van a ver y contribuir al codigo, sino porque algunas herramientas dependen
+de esas consistencia.
