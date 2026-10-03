@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pedido>
-    <destinatario>
-        <nombre>Juan Delgado Martinez</nombre>
+    <destinatario>Juan Delgado Martinez</destinatario>
+    <articulo>Bicicleta Bianchi</articulo>
+    <direccion>
+        <interior>201</interior>
+        <calle>Reforma 432</calle>
+    </direccion>
+    <fecha>
+        <ano>2021</ano>
+        <mes>09</mes>
+        <dia>19</dia>
+    </fecha>
+</pedido>
